@@ -1,9 +1,9 @@
 package Sorting;
 
-
 public class MergeSortClass {
-	//testing
+	// testing
 	public void mergeSort(int[] a, int length) {
+		
 		if (length < 2) {
 			return;
 		}
@@ -24,7 +24,7 @@ public class MergeSortClass {
 		merge(a, l, r, middle, length - middle);
 	}
 
-	public void merge(int[] a, int[] l, int[] r, int left, int right) {
+	private void merge(int[] a, int[] l, int[] r, int left, int right) {
 
 		int i = 0, j = 0, k = 0;
 		while (i < left && j < right) {
