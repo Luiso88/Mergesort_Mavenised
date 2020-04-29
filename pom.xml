@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.luis</groupId>
 	<artifactId>Mergesort_Mavenised</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1</version>
 	<name>Mergesort_Mavenised</name>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
